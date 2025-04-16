@@ -1,20 +1,17 @@
-/*
-loop are used to repeat a block of code untill a certain conditions
-for each loop iterates all list elements or variables.
-its is useful when you want to loop through
-
-break statement
-
 void main(){
-  for (int i = 0 ; i < 10; i++){
-    print("kiran $i");
+  String name="Kiran";
+  for(int i=1;i<=10;i++){
+    print(name);
   }
-  list<int> marks=[20,51,05,046,4];
-  for (int i=0;i< marks.length ; i++)
-}
+  int a=5;
+  for(int j=1;j<=10;j++){
+    print(a*j);
+  }
+  for(int k=1;k<=90;k++){
+    if(k==55){
+      continue;
+    }
+    print(k);
+  }
 
-
- */
-void main(){
-  for(int =o)
 }

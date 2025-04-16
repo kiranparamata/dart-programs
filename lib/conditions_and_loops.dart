@@ -1,15 +1,13 @@
-/*
-condition and loops
-if condition
-if else condition
-if else if condition
-switch case
-
-ternary operator:
-is like a if-else statement
- */
 
 
-void main(){
-  int num1
+import 'dart:math';
+
+double calculateCircleArea(double radius) {
+  return pi * radius * radius;
+}
+
+void main() {
+  double radius = 5; // You can change this value
+  double area = calculateCircleArea(radius);
+  print('The area of the circle with radius $radius is $area');
 }
